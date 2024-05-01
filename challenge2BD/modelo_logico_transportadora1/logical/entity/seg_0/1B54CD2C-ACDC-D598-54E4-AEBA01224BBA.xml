@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B54CD2C-ACDC-D598-54E4-AEBA01224BBA" name="entregas">
+<createdBy>alexs</createdBy>
+<createdTime>2024-04-30 20:47:35 UTC</createdTime>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_entregas" id="2BC438BC-0B8B-24A1-9DBA-66945CFB8689">
+<createdBy>alexs</createdBy>
+<createdTime>2024-04-30 20:48:39 UTC</createdTime>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_de_entrega" id="57519E40-A459-BB6B-08CF-F93A1D2B3D09">
+<createdBy>alexs</createdBy>
+<createdTime>2024-04-30 20:47:43 UTC</createdTime>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rotas" id="785DB42F-1ECB-5C98-5A5D-814740548400">
+<createdBy>alexs</createdBy>
+<createdTime>2024-05-01 17:03:54 UTC</createdTime>
+<generatorID>B42AF418-FEA5-CFE1-E821-C1F811B07F41</generatorID>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<referedAttribute>68E5E1D5-4751-A522-015A-4B273B9632CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_motoristas" id="065ADA47-A28A-700E-9DDE-0D87327FDE8A">
+<createdBy>alexs</createdBy>
+<createdTime>2024-05-01 17:12:43 UTC</createdTime>
+<generatorID>F1D5681D-DB10-BF72-D779-0485CFA0070D</generatorID>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<referedAttribute>2A768CEB-58AF-2AAA-400F-F4596987776B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculos" id="EABA5897-7A04-2803-97CD-C7F40A75A334">
+<createdBy>alexs</createdBy>
+<createdTime>2024-05-01 17:13:12 UTC</createdTime>
+<generatorID>13CDD019-6E3F-3B85-F526-253A7D8411EB</generatorID>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<referedAttribute>6C18F7BA-1CDE-466A-01A2-2B3CE1A98797</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F93999A-BFC4-1D20-131B-301D5C4CD046" name="entregas PK">
+<createdBy>alexs</createdBy>
+<createdTime>2024-04-30 20:48:28 UTC</createdTime>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BC438BC-0B8B-24A1-9DBA-66945CFB8689</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

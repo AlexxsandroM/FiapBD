@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leva" directorySegmentName="seg_0" id="13CDD019-6E3F-3B85-F526-253A7D8411EB">
+<createdBy>alexs</createdBy>
+<createdTime>2024-05-01 17:13:12 UTC</createdTime>
+<ownerDesignName>modelo_logico_transportadora1</ownerDesignName>
+<engineerTo>
+<item key="4D35BE2C-D008-4207-3D83-028E67D8201D" value="true"/>
+</engineerTo>
+<sourcePk>44EBF2CE-EE24-DCB1-12DC-D168143AF9DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B714199F-E2A0-14B4-11B8-C2B9B9FB0923</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B54CD2C-ACDC-D598-54E4-AEBA01224BBA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
