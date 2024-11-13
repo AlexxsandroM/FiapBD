@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="eficientiza" id="6064310A-6C24-8405-42A2-99EE5086FA9F" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-11-13 22:24:07 UTC</createdTime>
+<ownerDesignName>eficientiza</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6064310A-6C24-8405-42A2-99EE5086FA9F</designId>
+</OSDM_Design>
